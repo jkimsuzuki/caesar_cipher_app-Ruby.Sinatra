@@ -7,9 +7,10 @@ def caesar_cipher(string, shift)
     if alphabet.include?(char)
       new_index = (alphabet.index(char) + shift) % 26
       alphabet[new_index]
+    else
+      char
     end
-    
-  end
+  end.join
 end
 
-p caesar_cipher('hello', 5)
+p caesar_cipher('hello!', 5)
