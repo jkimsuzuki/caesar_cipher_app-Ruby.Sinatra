@@ -1,10 +1,10 @@
 def alphabet
-  @alphabet = ('a'..'z').to_a
+  ('a'..'z').to_a
 end
 
 def caesar_cipher(string, shift)
-  string.split('').map { |char| alphabet.index(char) }
+  string.split('').map { |char| alphabet.index(char) } 
   
 end
 
-p caesar_cipher("hello", 5)
+p caesar_cipher('hello', 5)
