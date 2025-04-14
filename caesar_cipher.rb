@@ -3,8 +3,12 @@ def alphabet
 end
 
 def caesar_cipher(string, shift)
-  string.split('').map { |char| alphabet.index(char) } 
-  
+  string.split('').map do |char| 
+    if alphabet.include?(char)
+      new_index = (alphabet.index(char) + shift)
+    end
+    
+  end
 end
 
 p caesar_cipher('hello', 5)
