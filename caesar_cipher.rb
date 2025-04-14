@@ -1,11 +1,10 @@
 def alphabet
-  @alphabet = %w[a b c d e f g h i j k l m n o p q r s t u v w x y z]
+  @alphabet = ('a'..'z').to_a
 end
 
 def caesar_cipher(string, shift)
-  string.split('')
-
-  shift = index + shift
+  string.split('').map { |char| alphabet.index(char) }
+  
 end
 
 p caesar_cipher("hello", 5)
