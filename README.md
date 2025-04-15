@@ -22,7 +22,7 @@ Linked all the files together through:
 # Caesar Cipher App
 
 
-![Project Preview](./caesar_cipher.png) <!-- Replace with an actual image path or URL -->
+![Project Preview](./public/caesar_cipher.png) <!-- Replace with an actual image path or URL -->
 
 
 ## 📖 Project Overview
