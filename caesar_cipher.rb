@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def alphabet
   ('a'..'z').to_a
 end
