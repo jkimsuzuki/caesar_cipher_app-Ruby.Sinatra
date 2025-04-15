@@ -6,7 +6,7 @@
 </head>
 <body>
 
-
+<div class="container">
 <h1>Caesar Cipher Encoder</h1>
 
 <form action="/cipher" method="post">
@@ -20,8 +20,9 @@
 </form>
 
 <% if @result %>
-  <h2>Result: <%= @result %></h2>
+  <h2>Cipher Code: <%= @result %></h2>
 <% end %>
+</div>
 
 </body>
 </html>

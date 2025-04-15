@@ -12,3 +12,9 @@ I downloaded Sinatra as the framework to get my first basic full-stack app runni
 Then created index.erb to have a more compartmentalized structure to write out my HTML. views/index.erb
 
 Next, in a public folder, created styles.css to stylize the page. public/styles.css
+
+Linked all the files together through: 
+
+  - Front-End HTML form, CSS and rendered result, served via index.erb
+
+  - Back-End Sinatra server handling GET/POST requests
