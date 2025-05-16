@@ -1,4 +1,6 @@
 require 'sinatra'
+set :port, ENV['PORT']  || 4567
+set :bind, '0.0.0.0'
 
 def caesar_cipher(string, shift)
   lowercase = ('a'..'z').to_a
