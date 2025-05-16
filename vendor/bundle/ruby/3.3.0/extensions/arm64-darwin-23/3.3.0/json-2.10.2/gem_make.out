@@ -1,0 +1,24 @@
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
+/Users/josephkim-suzuki/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-pm5blf sitelibdir\=./.gem.20250516-49971-pm5blf clean
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-pm5blf sitelibdir\=./.gem.20250516-49971-pm5blf
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-pm5blf sitelibdir\=./.gem.20250516-49971-pm5blf install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250516-49971-pm5blf/json/ext
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-pm5blf sitelibdir\=./.gem.20250516-49971-pm5blf clean

@@ -1,0 +1,18 @@
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/josephkim-suzuki/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-va059n sitelibdir\=./.gem.20250516-49971-va059n clean
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-va059n sitelibdir\=./.gem.20250516-49971-va059n
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-va059n sitelibdir\=./.gem.20250516-49971-va059n install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250516-49971-va059n/racc
+
+current directory: /Users/josephkim-suzuki/repos/The Odin Project/Full Stack Ruby/Ruby/ruby_projects/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250516-49971-va059n sitelibdir\=./.gem.20250516-49971-va059n clean
